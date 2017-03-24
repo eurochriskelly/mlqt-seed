@@ -2,9 +2,9 @@
 
 - Installation:
 
-    npm install https://github.com/eurochriskelly/mlqt-seed.git
-
-- Check out repo. Delete .git folder.
+    mkdir foo
+    git clone https://github.com/eurochriskelly/mlqt-seed.git
+    rm -rf .git/
 
 In a terminal:
 
