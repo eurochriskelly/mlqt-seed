@@ -1,0 +1,21 @@
+{
+   "name": "maintarea",
+   "version": "1.0.0",
+   "main": "index.js",
+   "license": "MIT",
+   "devDependencies": {
+       "fuse" : "^0.4.0",
+       "ml-query-terminal" : "git+https://github.com/eurochriskelly/ml-query-terminal.git"
+   },
+   "scripts": {
+      "fuse:js": "fuse -i src/index.js -o dist/bundle.sjs -w",
+      "mlqt": "mlqt -q dist/bundle.sjs"
+   },
+   "mlqt": {
+      "host": "localhost",
+      "port": "8000",
+      "user": "admin",
+      "password": "admin",
+      "authType": "DIGEST"
+   }
+}
