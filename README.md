@@ -1,12 +1,12 @@
 # Notes
 
-- Installation:
+Installation:
 
     mkdir foo
     git clone https://github.com/eurochriskelly/mlqt-seed.git
     rm -rf .git/
 
-In a terminal:
+Then, in a terminal:
 
     npm run fuse:js
 
