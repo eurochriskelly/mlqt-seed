@@ -3,7 +3,7 @@
 ## Installation:
 
     mkdir foo
-    git clone https://github.com/eurochriskelly/mlqt-seed.git
+    git clone https://github.com/eurochriskelly/mlqt-seed.git .
     npm install
     rm -rf .git/
 
