@@ -1,6 +1,10 @@
 # Notes
 
-- Check out repo. Delete .git folder. 
+- Installation:
+
+    npm install https://github.com/eurochriskelly/mlqt-seed.git
+
+- Check out repo. Delete .git folder.
 
 In a terminal:
 
